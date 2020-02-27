@@ -1,0 +1,83 @@
+html, body {
+  height: 100vh;
+  background-color: gray;
+}
+
+#screen {
+  width: 100vw;
+  height: 75vmin;
+  margin: auto;
+}
+
+#top-row {
+	height: calc( 100% * 2/3);
+  min-height: calc( 100% * 2/3);
+  display: grid;
+  grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . . . . . .";
+}
+
+#bottom-section {
+  height: calc( 100% * 1/3);
+  min-height: calc( 100% * 1/3);
+  width: 100%;
+}
+
+#middle-strip {
+  height: 25%;
+  display: grid;
+  grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . . . . . .";
+}
+
+#bottom-row {
+  height: 75%;
+  display: grid;
+  grid-template-columns: 17.857% 17.857% 17.857% 17.857% 4.7619% 4.7619% 4.7619% 14.2857%;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . . . . . . .";
+}
+
+/* colors */
+
+.white {
+  background-color: white;
+}
+.white-75 {
+  background-color: #c0c0c0;
+}
+.yellow {
+  background-color: #c0c201;
+}
+.cyan {
+  background-color: #00c0c1;
+}
+.green {
+  background-color: #01c201;
+}
+.magenta {
+  background-color: #c200c2;
+}
+.red {
+  background-color: #c20000;
+}
+.blue {
+  background-color: #0000c3;
+}
+.blackish {
+  background-color: #131313;
+}
+.blacker {
+  background-color: #090909;
+}
+.charcoal {
+  background-color: #1d1d1d;
+}
+.indigo {
+  background-color: #00204d;
+}
+.purple {
+  background-color: #32006c;
+}
